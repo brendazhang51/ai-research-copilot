@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ai-research-copilot
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false   # Set this manually in the Render dashboard — never commit the value

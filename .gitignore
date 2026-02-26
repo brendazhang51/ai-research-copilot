@@ -1,0 +1,10 @@
+
+# secrets
+.env
+.env.*
+research-copilot/.env
+ui/.env.local
+__pycache__/
+*.pyc
+*.pyo
+.playwright-mcp/
